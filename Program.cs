@@ -27,6 +27,9 @@ namespace c_sharp_course
             double hypotenuse = Math.Sqrt(sum);
             
             Console.WriteLine($"\n THIS IS Hypotenuse:{hypotenuse}");
+
+             Console.WriteLine($"   *\n   **\n   * *\n{A} *  * {hypotenuse}\n   *   *\n   *    *\n   *******");
+             Console.Write($"      {B}   ");
         }
         
         //practice for convert numbers
