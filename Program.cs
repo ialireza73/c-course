@@ -26,10 +26,10 @@ namespace c_sharp_course
             double sum = Math.Pow(A, 2) + Math.Pow(B, 2);
             double hypotenuse = Math.Sqrt(sum);
             
-            Console.WriteLine($"\n THIS IS Hypotenuse:{hypotenuse}");
+            Console.WriteLine($"\nTHIS IS Hypotenuse:{hypotenuse}");
 
-             Console.WriteLine($"   *\n   **\n   * *\n{A} *  * {hypotenuse}\n   *   *\n   *    *\n   *******");
-             Console.Write($"      {B}   ");
+             Console.WriteLine($"\n                      *\n\n                      *   *\n\n                      *       *\n           A: {A}                   Hypotenuse :({hypotenuse})\n                      *           *\n\n                      *               *\n\n                      *   *   *   *   *   *");
+             Console.Write($"                            B: {B}   ");
         }
         
         //practice for convert numbers
