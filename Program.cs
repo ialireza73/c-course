@@ -31,7 +31,7 @@ namespace c_sharp_course
              Console.WriteLine($"\n                      *\n\n                      *   *\n\n                      *       *\n           A: {A}                   Hypotenuse :({hypotenuse})\n                      *           *\n\n                      *               *\n\n                      *   *   *   *   *   *");
              Console.Write($"                            B: {B}   ");
         }
-        a
+        
         //practice for convert numbers
         private static void AB()
         {
